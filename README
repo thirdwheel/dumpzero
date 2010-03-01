@@ -1,0 +1,21 @@
+Installation
+------------
+
+Assuming you have make and GCC installed with a proper toolchain:
+
+# make dumpzero
+# sudo cp dumpzero /usr/bin
+
+Uninstallation
+--------------
+
+# sudo rm /usr/bin
+
+Use
+---
+
+# dumpzero < file1 > file2
+-OR-
+# cat file1 | dumpzero > file2
+
+
