@@ -1,3 +1,9 @@
+Summary
+-------
+This program parses standard input for whitespace consisting entirely of 
+null characters (i.e. ASCII character 0) and removes any that reside on
+the very end while still maintaining those within the file.
+
 Installation
 ------------
 
@@ -9,7 +15,7 @@ Assuming you have make and GCC installed with a proper toolchain:
 Uninstallation
 --------------
 
-# sudo rm /usr/bin
+# sudo rm /usr/bin/dumpzero
 
 Use
 ---
